@@ -1,0 +1,180 @@
+.sidebar-height{
+    min-height: 530px;
+}
+
+.wizard{
+    min-height: 650px;
+}
+
+.wizard .content{
+    overflow-y:auto ;
+    min-height: 650px;
+}
+
+.wizard .content{
+    border-bottom: 1px solid #f0f1f5;
+}
+
+.btn-extra-sm{
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+
+.ai-icon:hover{
+    color: #2f4cdd !important;
+}
+.ai-icon:hover i{
+    color: #2f4cdd !important;
+}
+
+.cover-wrapper{
+    height: 250px;
+}
+.cover-img{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-wrapper{
+    position: absolute;
+    top: -50px;
+    height: 100px;
+    width: 100px;
+    left: 20px;
+    border:3px solid lightgray;
+}
+
+.profile.card{
+    height: calc(100% - 70px);
+}
+
+.bg-gainsboro {
+    background: gainsboro !important;
+}
+
+.add-overview{
+   position: fixed;
+    bottom: -1000px;
+    z-index: 999;
+    overflow-y: auto;
+    max-height: 400px;
+}
+.single-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.item-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.modify-item{
+    display: flex;
+
+}
+
+.minus-quantity,.item-quantity,.plus-quantity{
+    padding: 5px;
+    cursor: pointer;
+}
+
+#paymentOverviewSection{
+    display: none;
+}
+#close-overview,#close-payment-overview{
+    cursor: pointer;
+}
+
+.pay-now-section{
+    display: none;
+}
+
+.card-payment-section{
+    display: none;
+}
+
+.border-2-blue{
+    border:2px solid #2f4cdd;
+}
+
+.dataTable th{
+    border-bottom-width: 1px !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+    border-color: #f0f1f5;
+    color: darkgray;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #2f4cdd;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.border-1-gray{
+    border: 1px solid #e8e8e8;
+}
+.border-radius-1{
+    border-radius: 10px;
+}
+
+.height-100{
+    height: 100px;
+}
+.height-30{
+    height: 30px;
+}
+.individual-notification{
+    cursor: pointer;
+}
+
+.min-h-300{
+    min-height: 300px;
+}
+
+.header-logo{
+    color: #3C4469;
+    font-size: 30px;
+}
+
+.incomplete-setting-list{
+    width: fit-content;
+    border-bottom: 1px dashed #ff7844;
+    color: red;
+}
+
+.display-none{
+    display: none;
+}
+.flex-1{
+    flex: 1;
+}
+
